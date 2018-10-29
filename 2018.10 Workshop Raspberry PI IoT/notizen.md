@@ -34,3 +34,5 @@ geek@Azure:~$ az iot hub show --query properties.eventHubEndpoints.events.path -
 "iothub-ehub-iotexample-907907-19e29d3f41"
 geek@Azure:~$ az iot hub policy show --name iothubowner --query primaryKey --hub-name IoTExampleHubGeeks
 "VOWaNLMMKA9htWQ8tUzmY4WtuKbxf7A4Cz36iPFOU74="
+
+HostName=IoTExampleHubGeeks.azure-devices.net;DeviceId=RaspBerryPiGeek;SharedAccessKey=eE67vQJMf2O2NWWQ/ZHvmofkxSUwF/aPjkxDt+nIFeA=
