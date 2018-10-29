@@ -1,3 +1,4 @@
-
-2018.10 Workshop Raspberry PI IoT\Example\bin\
-2018.10 Workshop Raspberry PI IoT\Example\obj\
+$ cat .gitignore
+# exclude everything except directory foo/bar
+/2018.10 Workshop Raspberry PI IoT/Example/bin/*
+/2018.10 Workshop Raspberry PI IoT/Example/obj/*
