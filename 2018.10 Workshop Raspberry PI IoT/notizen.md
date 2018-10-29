@@ -1,4 +1,6 @@
 
+Azure Cloud shell eingabe
+
 geek@Azure:~$ az extension add --name azure-cli-iot-ext
 geek@Azure:~$ az iot hub device-identity create --hub-name IoTExampleHubGeeks --device-id RaspBerryPiGeek
 {
@@ -28,6 +30,9 @@ geek@Azure:~$ az iot hub device-identity create --hub-name IoTExampleHubGeeks --
   "statusUpdatedTime": "0001-01-01T00:00:00"
 }
 
+
+Azure Cloud shell  Endpoint erzeugen
+
 geek@Azure:~$ az iot hub show --query properties.eventHubEndpoints.events.endpoint --name IoTExampleHubGeeks
 "sb://ihsuprodamres021dednamespace.servicebus.windows.net/"
 geek@Azure:~$ az iot hub show --query properties.eventHubEndpoints.events.path --name IoTExampleHubGeeks
@@ -35,4 +40,5 @@ geek@Azure:~$ az iot hub show --query properties.eventHubEndpoints.events.path -
 geek@Azure:~$ az iot hub policy show --name iothubowner --query primaryKey --hub-name IoTExampleHubGeeks
 "VOWaNLMMKA9htWQ8tUzmY4WtuKbxf7A4Cz36iPFOU74="
 
+Connectionstring
 HostName=IoTExampleHubGeeks.azure-devices.net;DeviceId=RaspBerryPiGeek;SharedAccessKey=eE67vQJMf2O2NWWQ/ZHvmofkxSUwF/aPjkxDt+nIFeA=
