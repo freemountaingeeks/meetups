@@ -5,3 +5,5 @@ Im Rahmen dieses Vortrags sollen die Herausforderungen bei der Bewertung von Sof
 
 Über den Referenten:
 Hendrik Lösch ist Consultant und Entwickler der Saxonia Systems AG. Der Schwerpunkt seiner Arbeit liegt auf der Entwicklung von Software für Kunden im industriellen und medizinischen Umfeld.
+
+Der Vortrag ist unter [slideshare](https://de.slideshare.net/HendrikLsch1/der-healthcheck-fr-softwareprojekte) zu finden
